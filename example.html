@@ -1,0 +1,35 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.countdown.js"></script>
+
+<script type="text/javascript">
+$(function() {
+	$("#test").countdown(10, function() {
+		console.log("pow pow!");
+		console.log(this);
+	});
+
+	$(".poop").countdown(23, function() {
+		//alert('whammy');
+		console.log(this);
+	});
+});
+</script>
+
+
+</head>
+<body>
+	<div class="test">
+		<span id="test"></span>
+	</div>
+
+
+	<div class="poop"></div>
+	<div class="poop"></div>
+	<div class="poop"></div>
+	
+
+
+</body>
+</html>
