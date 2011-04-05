@@ -1,6 +1,6 @@
 # countdown jquery plugin #
 
-I needed a page countdown script to so super sweet stuff after a few minutes. So I whipped this bad boy up real quick.
+I needed a page countdown script to do super sweet stuff after a few minutes. So I whipped this bad boy up real quick.
 It's stupid easy to use:
 
     $("#powpow").countdown(30, function() { alert('whammy'); });
